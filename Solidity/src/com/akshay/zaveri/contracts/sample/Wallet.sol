@@ -14,6 +14,6 @@ contract MyContract {
      
      
      function getMyVariable() constant returns (uint){
-         return myVariable;
+         return myVariable ;
      }
 }                                               
