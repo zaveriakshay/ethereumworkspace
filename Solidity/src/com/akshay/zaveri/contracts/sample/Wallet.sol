@@ -9,7 +9,7 @@ contract MyContract {
      }
      
      function setMyVariable(uint myNewVariable){
-         myVariable = myNewVariable;
+         myVariable = myNewVariable+8;
      }
      
      
