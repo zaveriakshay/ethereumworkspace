@@ -1,0 +1,40 @@
+{
+  "contract_name": "MyContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "myNewVariable",
+          "type": "uint256"
+        }
+      ],
+      "name": "setMyVariable",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getMyVariable",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60066000555b5b60bb806100256000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636ec9c7ae81146046578063ef55177014605b575b600080fd5b3415605057600080fd5b6059600435607d565b005b3415606557600080fd5b606b6088565b60405190815260200160405180910390f35b600881016000555b50565b6000545b905600a165627a7a72305820ee76324cd13f6811e254e03f3e4be902e6844d7de46d4fe8a90de55891cc74880029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1506970236321
+}
